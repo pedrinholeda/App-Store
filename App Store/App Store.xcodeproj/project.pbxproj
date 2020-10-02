@@ -16,6 +16,10 @@
 		964D8D8E2522D138006A0E3A /* App_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D8D8D2522D138006A0E3A /* App_StoreTests.swift */; };
 		964D8D992522D138006A0E3A /* App_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D8D982522D138006A0E3A /* App_StoreUITests.swift */; };
 		964D8DAB2522D1AF006A0E3A /* BaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D8DAA2522D1AF006A0E3A /* BaseTabBar.swift */; };
+		9673630D25241D580039694E /* BuscaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673630C25241D580039694E /* BuscaVC.swift */; };
+		96736318252421470039694E /* BuscaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96736317252421470039694E /* BuscaCell.swift */; };
+		9673631E252422420039694E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673631D252422410039694E /* UIView.swift */; };
+		96736323252423010039694E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96736322252423010039694E /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		964D8D982522D138006A0E3A /* App_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_StoreUITests.swift; sourceTree = "<group>"; };
 		964D8D9A2522D138006A0E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964D8DAA2522D1AF006A0E3A /* BaseTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBar.swift; sourceTree = "<group>"; };
+		9673630C25241D580039694E /* BuscaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaVC.swift; sourceTree = "<group>"; };
+		96736317252421470039694E /* BuscaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCell.swift; sourceTree = "<group>"; };
+		9673631D252422410039694E /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ../../../../../Downloads/UIView.swift; sourceTree = "<group>"; };
+		96736322252423010039694E /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		964D8D752522D131006A0E3A /* App Store */ = {
 			isa = PBXGroup;
 			children = (
+				9673631C252421F80039694E /* Lib */,
+				967363142524210A0039694E /* View */,
 				964D8DA92522D18D006A0E3A /* Controller */,
 				964D8D762522D131006A0E3A /* AppDelegate.swift */,
 				964D8D782522D131006A0E3A /* SceneDelegate.swift */,
@@ -134,9 +144,43 @@
 		964D8DA92522D18D006A0E3A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9673630B25241D420039694E /* Busca */,
 				964D8DAA2522D1AF006A0E3A /* BaseTabBar.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9673630B25241D420039694E /* Busca */ = {
+			isa = PBXGroup;
+			children = (
+				9673630C25241D580039694E /* BuscaVC.swift */,
+			);
+			path = Busca;
+			sourceTree = "<group>";
+		};
+		967363142524210A0039694E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96736315252421160039694E /* Busca */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96736315252421160039694E /* Busca */ = {
+			isa = PBXGroup;
+			children = (
+				96736317252421470039694E /* BuscaCell.swift */,
+			);
+			path = Busca;
+			sourceTree = "<group>";
+		};
+		9673631C252421F80039694E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9673631D252422410039694E /* UIView.swift */,
+				96736322252423010039694E /* UIImageView.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96736323252423010039694E /* UIImageView.swift in Sources */,
+				96736318252421470039694E /* BuscaCell.swift in Sources */,
 				964D8D7B2522D131006A0E3A /* ViewController.swift in Sources */,
+				9673630D25241D580039694E /* BuscaVC.swift in Sources */,
+				9673631E252422420039694E /* UIView.swift in Sources */,
 				964D8D772522D131006A0E3A /* AppDelegate.swift in Sources */,
 				964D8DAB2522D1AF006A0E3A /* BaseTabBar.swift in Sources */,
 				964D8D792522D131006A0E3A /* SceneDelegate.swift in Sources */,
