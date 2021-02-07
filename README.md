@@ -1,4 +1,12 @@
 # App-Store
 
-## Clone Da App Store Desenvolvido Com Swift e uma Api em PHP 
-em progresso
+## 📋 Descrição
+Clone da App store Usando swift com uma conectando com uma api em PHP
+
+## 🖥️ Tecnologias
+
+- Swift
+- PHP
+
+## 🎨 Projetos
+*✓ Em Construção*
